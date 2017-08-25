@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/actionbar_header_settings"
+        android:background="@mipmap/ic_settings"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:minWidth="0dp"
+        android:scaleType="centerInside"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:visibility="visible"
+        android:paddingRight="5dp"
+        android:layout_gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/actionbar_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/app_name"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/actionbar_header_status"
+        android:scaleType="centerInside"
+        android:background="@mipmap/ic_wifi_scanning"
+        android:minWidth="0dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:visibility="visible"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/actionbar_header_close"
+        android:layout_toStartOf="@+id/actionbar_header_close"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="10dp" />
+
+    <ImageButton
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/actionbar_header_close"
+        android:scaleType="centerInside"
+        android:background="@mipmap/ic_close"
+        android:minWidth="0dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:visibility="visible"
+        android:paddingRight="5dp"
+        android:layout_gravity="right"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
