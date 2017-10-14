@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "private": true,
   "dependencies": {
+	"xml2js": "latest",
     "bcrypt-nodejs": "latest",
     "body-parser": "^1.18.2",
     "express-xml-bodyparser": "latest",
