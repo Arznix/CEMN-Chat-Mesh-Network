@@ -1,0 +1,15 @@
+{
+  "name": "CEMN_Registration-Server",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "^1.18.2",
+    "express-xml-bodyparser": "latest",
+    "crypto": "latest",
+    "express": "^4.15.4",
+    "ip": "latest",
+    "ipware": "*",
+    "mongoose": "^4.4.13"
+  }
+}
