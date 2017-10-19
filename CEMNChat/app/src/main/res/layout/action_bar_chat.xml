@@ -37,7 +37,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/actionbar_header_status"
+        android:id="@+id/actionbar_connection_status"
         android:scaleType="centerInside"
         android:background="@mipmap/ic_wifi_scanning"
         android:minWidth="0dp"
